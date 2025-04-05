@@ -501,26 +501,20 @@ a {
 }
 .modal-close-btn {
   position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   top: 24px;
   right: 24px;
   width: 24px;
   height: 24px;
-  border-radius: 100%;
-  stroke-width: 1px;
-  stroke: rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 .modal-icon-btn {
   fill: #2e2f42;
-  /* display: flex;
-  align-items: center;
-  justify-content: center;
   position: absolute;
-  padding: 8px;
-  top: 50%;
-  left: 50%;
-  transform: translateY(-50%);
-  stroke-width: 1px;
-  stroke: #000; */
+
 }
 .modal-text {
   font-family: 'Roboto', sans-serif;
