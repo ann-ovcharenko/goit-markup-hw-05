@@ -479,6 +479,10 @@ a {
   color: #fff;
   margin-bottom: 16px;
 }
+.subscribe-form {
+  display: flex;
+  gap: 24px;
+}
 .subscribe-email {
   display: inline-flex;
   align-items: center;
@@ -490,9 +494,6 @@ a {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: transparent;
   padding: 8px 16px;
-  margin-right: 24px;
-}
-.subscribe-email::placeholder {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 12px;
@@ -500,21 +501,21 @@ a {
   letter-spacing: 0.04em;
   color: #fff;
 }
+.subscribe-email::placeholder {
+  color: #fff;
+}
 .subscribe-btn {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  gap: 16px;
   border-radius: 4px;
   padding: 8px 24px;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   background-color: #4d5ae5;
   border: none;
-}
-.subscribe-btn-text {
-  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -523,7 +524,8 @@ a {
   color: #fff;
 }
 .subscribe-btn-icon {
-  fill: #ffffff;
+  fill: #fff;
+  margin-left: 16px;
 }
 /*-----------------------Modal window------------------*/
 .modal-overlay {
