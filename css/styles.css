@@ -429,6 +429,9 @@ a {
   color: #f4f4fd;
   max-width: 264px;
 }
+.soc-media-box {
+  margin-right: 80px;
+}
 .soc-media {
   font-weight: 500;
   font-size: 16px;
@@ -461,6 +464,66 @@ a {
 }
 .icon-svg-footer {
   fill: #f4f4fd;
+}
+
+.subscribe-box {
+  width: 453px;
+  height: 80px;
+}
+.subscribe {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+.subscribe-email {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background-color: transparent;
+  padding: 8px 16px;
+  margin-right: 24px;
+}
+.subscribe-email::placeholder {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+.subscribe-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 16px;
+  border-radius: 4px;
+  padding: 8px 24px;
+  width: 165px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border: none;
+}
+.subscribe-btn-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #fff;
+}
+.subscribe-btn-icon {
+  fill: #ffffff;
 }
 /*-----------------------Modal window------------------*/
 .modal-overlay {
@@ -543,7 +606,6 @@ a {
 .modal-field {
   margin-bottom: 8px;
 }
-
 .modal-input {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
@@ -601,14 +663,6 @@ a {
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
 }
-/* .user-comment::placeholder {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-  color: rgba(46, 47, 66, 0.4);
-} */
 .user-comment:focus {
   border-color: #4d5ae5;
 }
